@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { HashRouter, Route, Link } from "react-router-dom";
 //import logo from './logo.svg';
 import './App.css';
 //import 'bootstrap/dist/css/bootstrap.css';
@@ -15,6 +16,7 @@ import Awards from './components/Awards.js';
 class App extends Component {
   render() {
   return (
+    <HashRouter basename='/'>
     <div id="page-top">
     {/* Creating the Component for side menu navigation and will import here*/}
 
@@ -53,7 +55,7 @@ class App extends Component {
 
     </div>
 
-
+  </HashRouter>
 
   );
 }
