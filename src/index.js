@@ -8,12 +8,14 @@ import * as serviceWorker from './serviceWorker';
 //import { HashRouter } from 'react-router-dom';
 import BrowserRouter from 'react-router-dom/BrowserRouter'
 
+//This code is for github page hosting
 ReactDOM.render((
    <BrowserRouter basename={process.env.PUBLIC_URL}>
      <App />
    </BrowserRouter>
 ), document.getElementById('root'));
 
+//This code is for normal react routing
 //ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
