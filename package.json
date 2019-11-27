@@ -2,7 +2,7 @@
   "name": "react_gitali_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/AntaraKatkar/portfolio",
+  "homepage": "https://github.com/AntaraKatkar/portfolio/build",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
