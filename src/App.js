@@ -16,7 +16,7 @@ import Awards from './components/Awards.js';
 class App extends Component {
   render() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename='/'>
     <div id="page-top">
     {/* Creating the Component for side menu navigation and will import here*/}
 
