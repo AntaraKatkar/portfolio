@@ -10,7 +10,8 @@ import BrowserRouter from 'react-router-dom/BrowserRouter'
 
 //This code is for github page hosting
 ReactDOM.render((
-   <BrowserRouter basename={process.env.PUBLIC_URL}>
+   //<BrowserRouter basename={process.env.PUBLIC_URL}>
+   <BrowserRouter basename={process.env.PUBLIC_URL/Portfolio}>
      <App />
    </BrowserRouter>
 ), document.getElementById('root'));
