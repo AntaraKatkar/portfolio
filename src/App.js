@@ -11,6 +11,7 @@ import Education from './components/Education.js';
 import Skills from './components/Skills.js';
 import Interest from './components/Interest.js';
 import Awards from './components/Awards.js';
+import Resume from './components/Resume.js';
 
 
 class App extends Component {
@@ -50,6 +51,11 @@ class App extends Component {
       <hr className="m-0"/>
       {/* Creating the Component for Awards section and will import here*/}
       <Awards title="Awards &amp; Certifications"/>
+
+      <hr className="m-0"/>
+      {/* Creating the Component for Resume section and will import here*/}
+
+      <Resume title="Resume" />
 
       </div>
 
