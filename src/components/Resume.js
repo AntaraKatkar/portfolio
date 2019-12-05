@@ -4,7 +4,7 @@ import "../App.css";
 
 //For File viewer
 import FileViewer from 'react-file-viewer';
-const file = 'https://antarakatkar.github.io/portfolio/public/resume/ResumeGitaliRakshak.docx';
+const file = 'https://AntaraKatkar.github.io/portfolio/public/resume/ResumeGitaliRakshak.docx';
 const type = 'docx';
 
 class Resume extends Component {
