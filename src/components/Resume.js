@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
 import "../App.css";
+
 //import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
 
 //For File viewer
-import FileViewer from 'react-file-viewer';
-const file = 'https://AntaraKatkar.github.io/portfolio/public/resume/ResumeGitaliRakshak.docx';
+//import FileViewer from 'react-file-viewer';
+const file = '../resume/ResumeGitaliRakshak.docx';
+//const file = 'https://AntaraKatkar.github.io/portfolio/public/resume/ResumeGitaliRakshak.docx';
+const file = 'https://AntaraKatkar.github.io/portfolio/resume/ResumeGitaliRakshak.docx';
 const type = 'docx';
 
 class Resume extends Component {
